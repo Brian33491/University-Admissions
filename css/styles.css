@@ -410,6 +410,9 @@ form.theForm input:required {
 form.theForm input:focus {
   border-bottom-color: rgb(0, 0, 0);
 }
+form.theForm input:required:valid {
+  border-bottom-color: rgb(0, 255, 13);
+}
 form.theForm input[type=submit] {
   border: none;
   background-color: aqua;
