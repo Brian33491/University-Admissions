@@ -372,6 +372,16 @@ nav li.active a {
   color: #7c1d47;
 }
 
+form.theForm {
+  margin: 1rem 10px;
+}
+form.theForm label {
+  display: block;
+  font-size: 0.8rem;
+  color: orange;
+  padding-top: 0.2rem;
+}
+
 /* --------------------------- MAIN --------------------------- */
 main h1 {
   padding: 1rem 10px 0.5rem 10px;

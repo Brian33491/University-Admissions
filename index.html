@@ -42,13 +42,38 @@
     <main>
 
         <h1>Best Practices</h1>
-   
-        <p>Competently myocardinate cross-media infomediaries via end-to-end architectures. Enthusiastically implement end-to-end functionalities vis-a-vis excellent strategic theme areas. Conveniently supply enterprise action items with integrated innovation. Authoritatively cultivate sustainable portals for orthogonal core competencies. Distinctively coordinate team driven portals rather than synergistic processes.</p>
+        
+        <form method="GET" action="thanks.html" class="theForm" autocomplete="on">
+            <h3>Personal Information</h3>
+            <label>First Name: <input type="text" name="fname" autocomplete="given-name" required title="First Name Here"></label>
+            <label>Last Name: <input type="text" name="lname" autocomplete="family-name" required title="Last Name Here"></label>
+            <label>Email: <input type="email" name="email" autocomplete="email" required title="Your Email Here"></label>
+            <label>Cell Phone: <input type="tel" name="phone" autocomplete="tel" required title="Your Phone Here"></label>
 
-        <p>Appropriately simplify enterprise information via leveraged total linkage. Progressively grow installed base infrastructures without open-source technologies. Distinctively embrace mission-critical internal or "organic" sources after competitive imperatives. Professionally whiteboard state of the art models through high-payoff expertise. Authoritatively exploit transparent users through virtual channels.</p>
+            <h3>Your Phone</h3>
+            <label>
+                <select name="condition">
+                    <option value="No Selection Made">Please Select</option>
+                    <option value="fair">Fair Condition</option>
+                </select>
+            </label>
 
-        <p>Interactively transition user-centric web services without scalable collaboration and idea-sharing. Holisticly restore next-generation data before seamless expertise. Monotonectally grow synergistic synergy without bricks-and-clicks ROI. Uniquely optimize 24/365 convergence after integrated synergy. Distinctively synthesize high-quality methodologies for performance based bandwidth.</p>
+            <h3>Phones</h3>
+            <label><input type="checkbox" name="Wants a iphone">iPhone</label>
+            <label><input type="checkbox" name="Wants a android">Android</label>
+            <label><input type="checkbox" name="Wants a motorola">Motorola</label>
 
+            <h3>Condition</h3>
+            <label><input type="radio" name="phone" value="new">New</label>
+            <label><input type="radio" name="phone" value="used">Used</label>
+            <label><input type="radio" name="phone" value="Certified">Certified Used</label>
+
+            <label>UserName (6 or more)<input type="text" required minlength="6" title="Please Enter a UserName that is 6+ characthers long"></label>
+            <label>Password (5-9 letters or numbers)<input type="password" required pattern="[A-Za-z0-9]{5,9}" title="Please Enter a UserName that is 6+ characthers long"></label>
+
+            <input type="submit" value="Purchase">
+        </form>
+        
      
 
     </main>
