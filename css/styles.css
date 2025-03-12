@@ -378,7 +378,7 @@ form.theForm {
 form.theForm label {
   display: block;
   font-size: 0.8rem;
-  color: #e67e22;
+  color: #000000;
   padding-top: 0.2rem;
 }
 form.theForm h3 {
@@ -431,8 +431,8 @@ form.theForm input[type=submit] {
 main h1 {
   padding: 1rem 10px 0.5rem 10px;
   font-size: 1.5rem;
-  color: #7c1d47;
-  font-weight: 300;
+  color: black;
+  font-weight: bold;
 }
 main p {
   padding: 0.5rem 10px;
