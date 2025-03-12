@@ -349,7 +349,7 @@ div#navWrapper {
   font-size: 1.6rem;
   height: 44px;
   text-decoration: none;
-  color: #333;
+  color: #555;
 }
 
 nav {
@@ -378,14 +378,14 @@ form.theForm {
 form.theForm label {
   display: block;
   font-size: 0.8rem;
-  color: orange;
+  color: #e67e22;
   padding-top: 0.2rem;
 }
 form.theForm h3 {
   font-size: 0.9rem;
-  color: #333;
+  color: #666;
   margin: 1.5rem;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #ccc;
 }
 form.theForm input[type=text],
 form.theForm input[type=tel],
@@ -395,27 +395,27 @@ form.theForm input[type=password],
 form.theForm select {
   display: block;
   margin: 0.1rem 0 1rem 0;
-  border: 1px solid #999;
+  border: 1px solid #aaa;
   border-radius: 10px 10px 0 0;
-  border-bottom-width: 5px;
-  border-bottom-color: #555;
+  border-left-width: 5px;
+  border-left-color: #444;
   font-size: 1rem;
-  color: rgb(196, 20, 0);
+  color: #c0392b;
   width: 250px;
   padding: 0.5rem 10px;
 }
 form.theForm input:required {
-  border-bottom-color: red;
+  border-left-color: #e74c3c;
 }
 form.theForm input:focus {
-  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: #2c3e50;
 }
 form.theForm input:required:valid {
-  border-bottom-color: rgb(0, 255, 13);
+  border-left-color: #27ae60;
 }
 form.theForm input[type=submit] {
   border: none;
-  background-color: aqua;
+  background-color: #16a085;
   color: white;
   border-radius: 1rem;
   padding: 0.75rem 1.5rem;
@@ -436,7 +436,7 @@ main h1 {
 }
 main p {
   padding: 0.5rem 10px;
-  color: #333;
+  color: #555;
   line-height: 150%;
 }
 

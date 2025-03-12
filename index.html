@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Navigation Example</title>
+	<title>Game Company</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" media="screen" href="css/styles.min.css">
 
@@ -18,7 +18,7 @@
 <div id="headerWrapper">
 	<header id="top">
         <img src="images/logo1x.png" alt="logo">
-		<span>Design Thinking</span>
+		<span>Game Company</span>
         <a href="#navLinks">&#9776;</a>
 	</header>
 </div><!-- end header wrapper -->
@@ -29,10 +29,10 @@
     <nav id="navLinks">
         <a href="#top">&#10005</a>
         <ul>
-            <li><a href="#">Clients</a></li>
+            <li><a href="#">Games</a></li>
             <li><a href="#">Services</a></li>
-            <li class="active"><a href="#">Best Practices</a></li>
-            <li><a href="#">Our Team</a></li>
+            <li class="active"><a href="#">Early Access</a></li>
+            <li><a href="#">Consoles</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
@@ -50,23 +50,31 @@
             <label>Email: <input type="email" name="email" autocomplete="email" required title="Your Email Here"></label>
             <label>Cell Phone: <input type="tel" name="phone" autocomplete="tel" required title="Your Phone Here"></label>
 
-            <h3>Your Phone</h3>
+            <h3>Game Brand</h3>
             <label>
                 <select name="condition">
                     <option value="No Selection Made">Please Select</option>
-                    <option value="fair">Fair Condition</option>
+                    <option value="nintendo">Nintendo</option>
+                    <option value="xbox">Xbox</option>
+                    <option value="playstation">Playstation</option>
+                    <option value="sega">Sega</option>
+                    <option value="epicGame">Epic Games</option>
+                    <option value="ea">EA</option>
+                    <option value="nexon">Nexon</option>
                 </select>
             </label>
 
-            <h3>Phones</h3>
-            <label><input type="checkbox" name="Wants a iphone">iPhone</label>
-            <label><input type="checkbox" name="Wants a android">Android</label>
-            <label><input type="checkbox" name="Wants a motorola">Motorola</label>
+            <h3>What Console do you have?</h3>
+            <label><input type="checkbox" name="is on an xbox"> Xbox One</label>
+            <label><input type="checkbox" name="is on an playstation"> Playstation 5</label>
+            <label><input type="checkbox" name="is on an switch"> Nintendo Switch</label>
+            <label><input type="checkbox" name="is on an computer"> Computer</label>
+            
 
             <h3>Condition</h3>
-            <label><input type="radio" name="phone" value="new">New</label>
-            <label><input type="radio" name="phone" value="used">Used</label>
-            <label><input type="radio" name="phone" value="Certified">Certified Used</label>
+            <label><input type="radio" name="game" value="new"> New</label>
+            <label><input type="radio" name="game" value="used"> Used</label>
+            
 
             <h3>Account Information</h3>
             <label>UserName (6 or more)<input type="text" required minlength="6" title="Please Enter a UserName that is 6+ characthers long"></label>
