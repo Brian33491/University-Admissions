@@ -381,6 +381,48 @@ form.theForm label {
   color: orange;
   padding-top: 0.2rem;
 }
+form.theForm h3 {
+  font-size: 0.9rem;
+  color: #333;
+  margin: 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+form.theForm input[type=text],
+form.theForm input[type=tel],
+form.theForm input[type=number],
+form.theForm input[type=email],
+form.theForm input[type=password],
+form.theForm select {
+  display: block;
+  margin: 0.1rem 0 1rem 0;
+  border: 1px solid #999;
+  border-radius: 10px 10px 0 0;
+  border-bottom-width: 5px;
+  border-bottom-color: #555;
+  font-size: 1rem;
+  color: rgb(196, 20, 0);
+  width: 250px;
+  padding: 0.5rem 10px;
+}
+form.theForm input:required {
+  border-bottom-color: red;
+}
+form.theForm input:focus {
+  border-bottom-color: rgb(0, 0, 0);
+}
+form.theForm input[type=submit] {
+  border: none;
+  background-color: aqua;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 2rem 0;
+  width: 250px;
+  font-size: 1.2rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+}
 
 /* --------------------------- MAIN --------------------------- */
 main h1 {
